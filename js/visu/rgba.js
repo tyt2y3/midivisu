@@ -1,6 +1,12 @@
 function rgba(red, green, blue, alpha) {
     return new RGBA(red, green, blue, alpha);
 }
+<<<<<<< HEAD
+=======
+function make_color(a) {
+	return new RGBA(a[0],a[1],a[2],1);
+}
+>>>>>>> ba32cd7... my visualization on Canon in D
 function RGBA(red, green, blue, alpha) {
     this.red = red;
     this.green = green;
